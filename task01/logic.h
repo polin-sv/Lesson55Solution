@@ -1,5 +1,8 @@
 #include <iostream>
+#include <string>
+
+#define DEFAULT_SIZE 30
+
 using namespace std;
 
-int get_average(int arrry[], int size);
-string get_best_class(int array1[], int arrry2[], int arrry3[], int size);
+string get_best_class(int classA[], int classB[], int classC[], int size);
